@@ -7,17 +7,8 @@
 /*apply style to<header>*/
 header {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
     padding: 20px 35px;
-    background-image:url("https://image.freepik.com/free-photo/colourful-bri…tern-with-copy-space-background_23-2148283321.jpg");
-
-}
-
-header {
-    padding-top: 10px;
-    padding-right: 15px;
-    padding-bottom: 20px;
-    padding-left: 25px;
-  }
-  header h1 {
+    background-image:url("https://image.freepik.com/free-photo/colourful-bri…tern-with-copy-space-background_23-2148283321.jpg");}
+header h1 {
     font-weight:lighter ;
     font-size: 36px;
     color: var( --whitesmoke);
@@ -70,28 +61,25 @@ header ul li a {
  padding: 8px 5px 133px 271px;
 }
 
-.head3{
+.about-me h3{
  font-size: 36px;
  color:black;
  margin-left: 0px;
- padding: 8px 5px 150px 271px;
+ padding: 50px 5px 150px 271px;
  display: inline-block;
  width: 5%;
  float: left;
- clear: both;
+ clear: both;}
+ .parag {
+     line-height: 1.7;
+     color:black;
+     width:58%;
+     font-size: 20px;
+     margin: 0 auto;
+     border-left: 5px solid #581845;
+     padding: 17px 20px 20px 20px;
+     margin-top: 70px;
  }
-.parag{
-    line-height: 1.7;
-    color:black;
-    width: 58%;
-    font-size: 20px;
-    margin: 0 auto;
-    border-left: 5px solid #581845;
-    padding: 17px 20px 20px 20px;
-    margin-top: 70px;
-
-  
-}
 
 
 
