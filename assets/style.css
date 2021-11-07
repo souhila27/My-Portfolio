@@ -3,6 +3,7 @@
     --whitesmoke:whitesmoke;
 }
 
+
 /*apply style to<header>*/
 header {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
     padding: 20px 35px;
@@ -22,12 +23,13 @@ header {
     color: var( --whitesmoke);
     margin: 0;
     display: inline;
-}
+}/* apply style to about me <section> */
 .subtitle {
     font-size: 22px;
     display: inline;
     font-weight: lighter;
     float: right;
+    margin:o auto;
 }
 
 .logo {
@@ -55,19 +57,55 @@ header nav ul li {
     display: inline;
 }
 header ul li a {
-    margin: 0px 30px;
+    margin:0px 30px;
     font-weight: lighter;
     font-size: 20px;
     display: inline;
     align-content: center;
 }
- .about-me p {
-padding: 20px;
-border-left: 10px solid yellow;
-height: 100px;
+.about-me{
    
+ font-size: 55px;
+    color:var(--violet);
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    display: inline;
+    margin: 40px 0;
+    text-align: center;
+   
+
+
+}
+.about-me {
+    text-align: center;
+    display:inline
+
 }
 
+.head3{
+ font-size: 36px;
+ color:black;
+ margin-left: 0px;
+ padding: 8px 5px 133px 271px;
+ display: inline-block;
+ width: 5%;
+ float: left;
+ clear: both;
+ 
+}
+span {
+    float: right;
+}
+
+.parag{
+    line-height: 1.7;
+    color:black;
+    width: 58%;
+    font-size: 20px;
+    margin: 0 auto;
+    border-left: 5px solid #581845;
+  
+}
 
 
  
