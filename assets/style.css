@@ -14,11 +14,11 @@ body{
 
 /*apply style to<header>*/
 header {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
-    padding: 20px 35px;
+    padding: 20px 0 35px 0;
     background-image:url("https://image.freepik.com/free-photo/colourful-bri…tern-with-copy-space-background_23-2148283321.jpg");
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+   
 }
 header h1 {
     font-weight:lighter ;
@@ -51,6 +51,7 @@ header  img {
 header a {
     text-decoration: none;
     color:var( --whitesmoke);
+    
 }
 header nav {
   
@@ -59,8 +60,8 @@ header nav {
 }
 header nav ul  {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    
+    justify-content:flex-start;
     align-items: center;
     list-style: none;
 }
@@ -84,7 +85,7 @@ header ul li a {
  margin-left: 0px;
  padding: 50px 5px 150px 271px;
  display: inline-block;
- width: 5%;
+ width: 10%;
  float: left;
  clear: both;}
 
@@ -105,25 +106,26 @@ header ul li a {
      font-size: 36px;
      font-weight:bold;
      color: var(--whitesmoke);
+     
  }
-.projects {
+.project {
     padding: 10px;
     margin: 0 auto;
-    margin-right:150px;
+    margin-right:400px;
     display: flex;
     justify-content: space-evenly;
-   
+   border-left: 5px solid #581845;
     align-items: center;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     
 
     
     
 }
-.flex-work img {
+.project img {
     
-    height:200px;
-    width: 200px;
+    height:100px;
+    width: 50px;
     min-width:200px ;
     border:5px solid cadetblue;
     border-radius: 7px;
@@ -141,15 +143,25 @@ footer {
     justify-content: space-between;
     width: 80%;
     padding: 40px 35px;
-    border-left: 5px solid #581845;
+    
 }
 footer h3{
     font-size: 30px;
     margin: 0px;
+    
+    
+}
+footer h2{
+
+    border-right: 5px solid #581845;
+    font-size: 36px;
+     font-weight:bold;
+     color: var(--whitesmoke)
 }
 footer div{
     line-height: 1.5;
     text-align: right;
+   
 }
 section{
     padding: 60px;
