@@ -1,3 +1,9 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root{
     --violet:#581845;
     --whitesmoke:whitesmoke;
@@ -7,32 +13,37 @@
 /*apply style to<header>*/
 header {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
     padding: 20px 35px;
-    background-image:url("https://image.freepik.com/free-photo/colourful-bri…tern-with-copy-space-background_23-2148283321.jpg");}
+    background-image:url("https://image.freepik.com/free-photo/colourful-bri…tern-with-copy-space-background_23-2148283321.jpg");
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 header h1 {
     font-weight:lighter ;
     font-size: 36px;
     color: var( --whitesmoke);
     margin: 0 auto;
-    display: inline;
+
 }
 .subtitle {
-    font-size: 30px;
-    display: inline;
-    font-weight: lighter;
-    float: right;
-    margin-right: 35px;
+ font-size: 30px;
+ font-weight: lighter;
+ margin-right: 35px;
+ color: var(--whitesmoke);
 }
 
-.logo {
-    width: 100px;
+.logo{
+    display: flex;
+    align-items:flex-end;
+    justify-content: left;
+
 }
-.logo img {
-    position: relative;
-    border-radius: 50%;
-    margin:30px 30px 0px 30px;
-    width: 155px;
-    height: 155px;
-    display: inline-block;
+
+header  img {
+ border-radius: 50%;
+ width: 155px;
+ height: 155px;
+
 }
 
 header a {
@@ -40,19 +51,23 @@ header a {
     color:var( --whitesmoke);
 }
 header nav {
-    float: right;
+  
     margin: 7px 0;
 
 }
-header nav ul li {
-    display: inline;
+header nav ul  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
 }
 header ul li a {
     margin:0px 30px;
     font-weight: lighter;
-    font-size: 20px;
+    font-size: 1.55vw;
     display: inline;
-    align-content: center;
+   
 }
 /* apply style to about me <section> */
 .about-me {
@@ -70,17 +85,45 @@ header ul li a {
  width: 5%;
  float: left;
  clear: both;}
- .parag {
-     line-height: 1.7;
-     color:black;
-     width:58%;
-     font-size: 20px;
-     margin: 0 auto;
-     border-left: 5px solid #581845;
-     padding: 17px 20px 20px 20px;
-     margin-top: 70px;
- }
 
+
+ .parag {
+ line-height: 1.7;
+ color:black;
+ width:58%;
+ font-size: 20px;
+ margin: 0 auto;
+ border-left: 5px solid #581845;
+ padding: 17px 20px 20px 20px;
+ margin-top: 70px;
+ }
+ /*style work sction */
+.projects {
+    padding: 15px;
+    margin: 0 auto;
+    margin-right:150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-left: 5px solid #581845;
+    height: fit-content; 
+
+    
+    
+}
+.flex-work img {
+    height:200px ;
+    width:350px ;
+    min-width:200px ;
+    border:5px solid cadetblue;
+    border-radius: 7px;
+    transition: img 0.5s ease;
+  
+
+}
+.flex-work img::after:hover{
+    opacity: 0.5;
+}
 
 
  
