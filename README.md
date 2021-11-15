@@ -12,7 +12,7 @@ https://souhila27.github.io/my-portfolio/
 
 ## gitHub repository
  SSH</br>
-git@github.com:souhila27/my-portfolio.git
+git@github.com:souhila27/my-portfolio.git</br>
 HTTPS</br>
 https://github.com/souhila27/my-portfolio.git
 
