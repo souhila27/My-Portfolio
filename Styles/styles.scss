@@ -1,5 +1,5 @@
 
-@import "./media";
+
 
 
 * {
@@ -507,6 +507,12 @@ section {
     padding: 2rem 0;
     text-align: center;
 }
+.port-text{
+    margin-top: 2rem;
+    margin-bottom: -1rem;
+    text-align: center;
+
+}
 
 .portfolios {
     display: grid;
@@ -834,3 +840,4 @@ transform: scale(1);
         }
     }
 }
+@import "./media";
